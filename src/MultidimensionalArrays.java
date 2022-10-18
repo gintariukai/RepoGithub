@@ -1,4 +1,4 @@
-public class Multidimensional_arrays {
+public class MultidimensionalArrays {
 
     public static void main(String[] args) {
         System.out.println("Hello Java!\n");

@@ -1,4 +1,4 @@
-public class Arrays_of_Strings_for_each {
+public class ArraysOfStringsForEach {
 
     public static void main(String[] args) {
         System.out.println("=============================");
