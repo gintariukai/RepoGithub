@@ -1,3 +1,5 @@
+import java.util.Optional;
+
 public class IfLoop {
     public static void main(String[] args) {
 
@@ -26,6 +28,11 @@ public class IfLoop {
         } else {
             System.out.println("\n Nei vienas ne tinka  ...");
         }
+
+        /*
+        * Object object1 = Optional.ofNullable(0)
+        *         .orElseGet(() -> new ForLoop());
+         */
 
     }
 }
