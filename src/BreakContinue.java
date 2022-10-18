@@ -1,4 +1,4 @@
-public class Break_Continue {
+public class BreakContinue {
     public static void main(String[] args) {
         System.out.println("========================");
 // pavyzdys su breik
