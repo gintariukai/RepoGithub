@@ -7,8 +7,8 @@ public class NanoTime {
     public static void main(String[] args) {
         System.out.println("Hello world!\n------------------");
 
-        // List<String> stringList = new LinkedList<>();
-        List<String> stringList = new ArrayList<>();
+        // List<String> stringList = new LinkedList<>(); // 151700 LinkedList
+        List<String> stringList = new ArrayList<>(); // 17900 ArrayList
         for (int i = 0; i < 10000; i++) {
             stringList.add(String.valueOf(i));
         }
