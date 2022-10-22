@@ -1,7 +1,8 @@
 public class MultidimensionalArrays {
 
     public static void main(String[] args) {
-        System.out.println("Hello Java!\n");
+        System.out.println("\nHello MultidimensionalArrays!\n-------------------");
+
         int[] number = {1, 2, 4, 3}; // odnomernyi masiv
 
         int[] [] matric = {{1, 2, 3, 4, 5, 6},

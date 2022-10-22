@@ -1,7 +1,6 @@
 public class WhileLoops {
     public static void main(String[] args) {
-
-        System.out.println("======================");
+        System.out.println("\nHello WhileLoops!\n-------------------");
 
         boolean t = true;
         boolean f = false;

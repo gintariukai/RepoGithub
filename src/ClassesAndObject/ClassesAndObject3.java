@@ -1,7 +1,9 @@
+package ClassesAndObject;
+
 public class ClassesAndObject3 {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello ClassesAndObject!\n-------------------");
 
         Persons1 persons1 = new Persons1();
         persons1.setName("");

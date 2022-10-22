@@ -2,6 +2,8 @@ import java.util.Scanner;
 
 public class DoWhile {
     public static void main(String[] args) {
+        System.out.println("\nHello DoWhile!\n-------------------");
+
         Scanner scanner = new Scanner(System.in);
 
 // metodas WHILE

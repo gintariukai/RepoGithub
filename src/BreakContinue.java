@@ -1,6 +1,6 @@
 public class BreakContinue {
     public static void main(String[] args) {
-        System.out.println("========================");
+        System.out.println("\nHello BreakContinue!\n-------------------");
 // pavyzdys su breik
 //        int i = 0;
 //        while (true) {

@@ -2,8 +2,10 @@ import java.util.Scanner;
 
 public class Switch {
     public static void main(String[] args) {
+        System.out.println("\nHello Switch!\n-------------------");
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("==================");
+
         System.out.println("Ivesk kiek Tau metu ");
         int age = scanner.nextInt();
 

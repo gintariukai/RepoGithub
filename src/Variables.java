@@ -1,5 +1,7 @@
 public class Variables {
     public static void main(String[] args) {
+        System.out.println("\nHello Variables!\n-------------------");
+
         // int myInt;
         // myInt = 557;
         int myInt = 557;

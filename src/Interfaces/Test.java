@@ -2,12 +2,16 @@ package Interfaces;
 
 public class Test {
     public static void main(String[] args) {
-        System.out.println("====================");
+        System.out.println("\nHello interfaces!\n-------------------");
 
         Info info1 = new Animal(2);
         Info info2 = new Person("Bob");
         info1.showInfo();
         info2.showInfo();
+
+        // galima ir taip
+        outputInfo(info1);
+        outputInfo(info2);
 
         System.out.println("======================");
 

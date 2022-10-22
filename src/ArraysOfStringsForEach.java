@@ -1,7 +1,7 @@
 public class ArraysOfStringsForEach {
 
     public static void main(String[] args) {
-        System.out.println("=============================");
+        System.out.println("\nHello ArraysOfStringsForEach!\n-------------------");
 
         int[] numbers = new int[3];
         numbers[0] = 5;

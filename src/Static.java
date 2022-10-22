@@ -1,7 +1,7 @@
 public class Static {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello Static!\n-------------------");
 
         Human2 h1 = new Human2("Bob", 18);
         Human2 h2 = new Human2("Tadas", 34);

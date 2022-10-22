@@ -2,8 +2,7 @@ import java.util.Optional;
 
 public class IfLoop {
     public static void main(String[] args) {
-
-        System.out.println("======================");
+        System.out.println("\nHello IfLoop!\n-------------------");
 
         if (5 > 1) {
             System.out.println("Taip, tiesa, kad 5>1 ");

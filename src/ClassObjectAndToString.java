@@ -1,7 +1,7 @@
 public class ClassObjectAndToString {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello ClassObjectAndToString!\n-------------------");
 
         Humann h1 = new Humann("Bob", 40);
         System.out.println(h1);

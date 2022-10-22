@@ -1,7 +1,9 @@
+package StringBuilder;
+
 public class StringBuilder2 {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello stringBuilder!\n-------------------");
 
         System.out.println("Labas");
         System.out.print("Sveiki,");

@@ -1,7 +1,7 @@
 public class This {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello This!\n-------------------");
 
         Human human = new Human();
         human.setName("Tom");

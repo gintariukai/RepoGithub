@@ -1,7 +1,9 @@
-public class ClassesAdnObject {
+package ClassesAndObject;
+
+public class ClassesAdnObject1 {
 
     public static void main(String[] args) {
-        System.out.println("Hello Java!\n");
+        System.out.println("\nHello ClassesAndObject!\n-------------------");
 
         Person person1 = new Person();
         person1.name = "Gintaras";

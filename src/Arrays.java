@@ -1,5 +1,8 @@
 public class Arrays {
     public static void main(String[] args) {
+        System.out.println("\nHello Arrays!\n-------------------");
+
+
         // int number = 10; // primitivus tipas // [10]
 
         System.out.println("=========================");
@@ -14,11 +17,11 @@ public class Arrays {
 
         System.out.println("=========================");
 
-        // jeigu zinom isanksto zinom skaicius
+        // jeigu zinom isanksto skaicius
         // cia perrasom masiva su duomenemis
         int[] numbers1 = {1, 2, 3, 4};
-        for (int i = 0; i < numbers1.length; i++) {
-            System.out.println(numbers1[i]);
+        for (int j : numbers1) {
+            System.out.println(j);
         }
     }
 }

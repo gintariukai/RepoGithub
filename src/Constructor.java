@@ -1,7 +1,7 @@
 public class Constructor {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello Constructor!\n-------------------");
 
         Human1 human1 = new Human1("Bob", 2);
         Human1 human2 = new Human1("");

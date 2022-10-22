@@ -1,7 +1,7 @@
 public class Final {
 
     public static void main(String[] args) {
-        System.out.println("\nHello repo-github!\n-------------------");
+        System.out.println("\nHello Final!\n-------------------");
 
 
 

@@ -1,7 +1,6 @@
 public class ForLoop {
     public static void main(String[] args) {
-
-        System.out.println("======================");
+        System.out.println("\nHello ForLoop!\n-------------------");
 
         for (int i = 0; i <= 5; i++) {
             System.out.println("For ciklas spausdina tiesa, " + i); // i++ == i = i+1 (true)
