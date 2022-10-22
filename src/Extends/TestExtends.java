@@ -1,9 +1,9 @@
 package Extends;
 
-public class Main {
+public class TestExtends {
 
     public static void main(String[] args) {
-        System.out.println("\nHello extends!\n-------------------");
+        System.out.println("\nHello Extends!\n-------------------");
 
         Animal animal = new Animal();
         animal.eat();

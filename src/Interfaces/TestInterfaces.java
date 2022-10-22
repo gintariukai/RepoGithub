@@ -1,8 +1,8 @@
 package Interfaces;
 
-public class Test {
+public class TestInterfaces {
     public static void main(String[] args) {
-        System.out.println("\nHello interfaces!\n-------------------");
+        System.out.println("\nHello Interfaces!\n-------------------");
 
         Info info1 = new Animal(2);
         Info info2 = new Person("Bob");
