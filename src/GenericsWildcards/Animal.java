@@ -1,4 +1,4 @@
-package Generics;
+package GenericsWildcards;
 
 public class Animal {
     private int id;

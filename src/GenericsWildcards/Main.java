@@ -1,4 +1,4 @@
-package Generics;
+package GenericsWildcards;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +15,8 @@ public class Main {
         animals.add("Frog");
 
         String animal = (String) animals.get(1); // Downcasting
-        System.out.println(animal);
+        System.out.println(animals);// visa metodus
+        System.out.println(animal); // tik viena 'get'(1)
         //////////////////////////////////////////
 
         System.out.println("---");
@@ -44,9 +45,9 @@ public class Main {
         test(listOfDogs); // wildcards / (List<?> list)
 
         /*
-        *   Object       // (List<? super Animal> list) super tik Object
-        *       Animal   // extends visus metodus Animal
-        *           Dog  // extends visus metodus Dog ir Animal
+        *   Object       // (List<? super Animal> list) "super" tik Object, auksciau uz Animal
+        *       Animal   // extends visus metodus Animal ir Dog
+        *           Dog  // extends visus metodus Dog
          */
     }
 
@@ -54,6 +55,7 @@ public class Main {
         for (Animal animal : list) {
             System.out.println(animal);
             animal.eat();
+            System.out.println(">>>>>><<<<<<<");
         }
     }
 
