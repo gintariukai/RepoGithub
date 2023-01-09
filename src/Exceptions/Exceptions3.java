@@ -1,7 +1,4 @@
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.util.Scanner;
+package Exceptions;
 
 public class Exceptions3 {
     public static void main(String[] args) {
