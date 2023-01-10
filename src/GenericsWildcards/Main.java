@@ -10,8 +10,8 @@ public class Main {
 
         /////// iki Java 5 taip dare /////////////////
         List animals =  new ArrayList();
-        animals.add("Cat");
-        animals.add("Dog"); // 1
+        animals.add("Abstract.Cat");
+        animals.add("Abstract.Dog"); // 1
         animals.add("Frog");
 
         String animal = (String) animals.get(1); // Downcasting
@@ -45,9 +45,9 @@ public class Main {
         test(listOfDogs); // wildcards / (List<?> list)
 
         /*
-        *   Object       // (List<? super Animal> list) "super" tik Object, auksciau uz Animal
-        *       Animal   // extends visus metodus Animal ir Dog
-        *           Dog  // extends visus metodus Dog
+        *   Object       // (List<? super Abstract.Animal> list) "super" tik Object, auksciau uz Abstract.Animal
+        *       Abstract.Animal   // extends visus metodus Abstract.Animal ir Abstract.Dog
+        *           Abstract.Dog  // extends visus metodus Abstract.Dog
          */
     }
 

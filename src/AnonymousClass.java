@@ -2,7 +2,7 @@ interface AbleToEat {
     public void eating();
 }
 
-//class Animals implements AbleToEat { // anonymus class
+// class Animal implements AbleToEat { // anonymus class
 //
 //    @Override
 //    public void eating() {
@@ -16,7 +16,7 @@ class Animal {
     }
 }
 
-//class OtherAnimal extends Animal {
+//class OtherAnimal extends Abstract.Animal {
 //    public void eat() {
 //        System.out.println("Other animal is eating...");
 //    }
@@ -33,7 +33,7 @@ public class AnonymousClass {
 //        OtherAnimal otherAnimal = new OtherAnimal();
 //        otherAnimal.eat();
 
-//        AbleToEat ableToEat = new Animals();
+//        AbleToEat ableToEat = new Animal();
 //        ableToEat.eating();
 
         AbleToEat ableToEat = new AbleToEat() {
