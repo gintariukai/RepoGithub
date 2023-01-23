@@ -4,10 +4,10 @@ public class Animal {
     String name = "Some animal name";
 
     public void eat() {
-        System.out.println("Animal am eating");
+        System.out.println("Abstract.Animal am eating");
     }
 
     public void sleep() {
-        System.out.println("Animal am sleeping");
+        System.out.println("Abstract.Animal am sleeping");
     }
 }

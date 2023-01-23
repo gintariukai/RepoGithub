@@ -22,7 +22,7 @@ public class TestInterfaces {
 
 /**
  * Galima ir taip
-        *Animal animal1 = new Animal(1);
+        *Abstract.Animal animal1 = new Abstract.Animal(1);
         *Person person1 = new Person("Jon");
         *animal1.showInfo();
         *person1.showInfo();

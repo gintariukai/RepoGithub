@@ -11,13 +11,13 @@ public class Test {
         dog.eat();
 
         // Downcasting
-        //Dog dog1 = animal; // meta klaida, todel turim ivesti patys metoda
+        //Abstract.Dog dog1 = animal; // meta klaida, todel turim ivesti patys metoda
         Dog dog2 = (Dog) animal;
         dog2.bark();
 
         // Su DownCasting reikia elgtis atsargiau
-//        Animal a = new Animal();
-//        Dog dog3 = (Dog) a; // Downcasting g.b nesaugus meta perspejima (klaida)
+//        Abstract.Animal a = new Abstract.Animal();
+//        Abstract.Dog dog3 = (Abstract.Dog) a; // Downcasting g.b nesaugus meta perspejima (klaida)
 //        dog3.bark();
 
     }
